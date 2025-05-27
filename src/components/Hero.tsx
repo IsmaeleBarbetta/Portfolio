@@ -71,7 +71,7 @@ const Hero = () => {
                                     Contattami
                                 </button>
                             </a>
-                            <a href={cv}>
+                            <a href={cv} target="_blank" rel="noopener noreferrer">
                                 <button className="cursor-pointer border border-slate-600 text-slate-300 px-8 py-3 rounded-lg font-semibold hover:border-cyan-400 hover:text-cyan-400 transition-all">
                                     Scarica CV
                                 </button>

@@ -61,9 +61,11 @@ const Contacts = () => {
                 <p className="text-slate-400 mb-8">
                   Sono sempre aperto a nuove sfide e opportunità di crescita nel mondo dell'informatica.
                 </p>
-                <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105">
-                  Invia un Messaggio
-                </button>
+                <a href='mailto:barbettaismaele@gmail.com' target="_blank" rel="noopener noreferrer">
+                    <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105">
+                    Invia un Messaggio
+                    </button>
+                </a>
               </div>
             </div>
           </div>
