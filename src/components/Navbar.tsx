@@ -23,9 +23,9 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#about" className="nav-item">About</a>
-            <a href="#skills" className="nav-item">Skills</a>
-            <a href="#education" className="nav-item">Education</a>
-            <a href="#contact" className="nav-item">Contact</a>
+            <a href="#skills" className="nav-item">Competenze</a>
+            <a href="#education" className="nav-item">Formazione</a>
+            <a href="#contact" className="nav-item">Contatti</a>
           </div>
         </div>
       </nav>
