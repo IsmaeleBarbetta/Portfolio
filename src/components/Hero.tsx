@@ -66,12 +66,16 @@ const Hero = () => {
                         </div>
 
                         <div className="flex gap-4">
-                            <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105">
-                                <a href='#contact'>Contattami</a>
-                            </button>
-                            <button className="border border-slate-600 text-slate-300 px-8 py-3 rounded-lg font-semibold hover:border-cyan-400 hover:text-cyan-400 transition-all">
-                                <a href={cv}>Scarica CV</a>
-                            </button>
+                            <a href='#contact'>
+                                <button className="cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105">
+                                    Contattami
+                                </button>
+                            </a>
+                            <a href={cv}>
+                                <button className="cursor-pointer border border-slate-600 text-slate-300 px-8 py-3 rounded-lg font-semibold hover:border-cyan-400 hover:text-cyan-400 transition-all">
+                                    Scarica CV
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
